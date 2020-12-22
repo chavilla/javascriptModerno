@@ -1,0 +1,22 @@
+{
+  "name": "webpack-eslint",
+  "version": "1.0.0",
+  "description": "Aprendiendo webpack babel y eslint",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel index.js --out-file indexout.js --presets=@babel/preset-env",
+    "webpack": "webpack --mode=development"
+  },
+  "keywords": [
+    "chavi"
+  ],
+  "author": "Jesus",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

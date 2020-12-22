@@ -1,0 +1,8 @@
+.titulo{
+    text-align: center;
+}
+
+.titulo:hover{
+    transition: all 3s ease-in;
+    transform: rotate(34);
+}
