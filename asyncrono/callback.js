@@ -17,7 +17,7 @@ function mostrarPaises(){
         })
         document.querySelector('.app').innerHTML=html;
     },2000)
-}
+};
 
 mostrarPaises();
 nuevoPais('Uruguay',mostrarPaises);
