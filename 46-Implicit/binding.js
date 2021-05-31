@@ -35,7 +35,7 @@ const favoriteMusic = ["Rock", "Pop", "Electrónica"];
 
 // using bind function
 const personBinding = person.bind(information, 'Salsa', 'Bachata');
-personBinding();
+//personBinding();
 
 /* ---------------------- Exercise 2 ------------------------------ */
 
