@@ -1,22 +1,33 @@
 {
-  "name": "webpack-eslint",
+  "name": "webpack-Eslint",
   "version": "1.0.0",
-  "description": "Aprendiendo webpack babel y eslint",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel index.js --out-file indexout.js --presets=@babel/preset-env",
-    "webpack": "webpack --mode=development"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel entrada.js --out-file salida.js --presets=@babel/preset-env",
+    "webpack": "webpack",
+    "start": "concurrently --kill-others \"npm run watch\" \"webpack serve\"",
+    "watch": "webpack -w"
   },
-  "keywords": [
-    "chavi"
-  ],
-  "author": "Jesus",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.23.4",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2"
   }
 }
